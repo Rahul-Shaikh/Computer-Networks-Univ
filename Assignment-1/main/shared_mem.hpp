@@ -12,4 +12,7 @@ bool destroy_memory_block(string filename);
 #define FILENAME "sender.cpp"
 #define BLOCK_SIZE 2048
 
+#define SEM_SENDER_FNAME "/sem_sender"
+#define SEM_RECEIVER_FNAME "/sem_receiver"
+
 #endif
